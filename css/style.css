@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0522a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0522a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #bd553b;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #f0522a;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #0000001a;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #004d99;
+}
+
+img {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d99;
+}
+
+footer {
+    background-color: #1d2329;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.table_index {
+
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ text-align: center;
+
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+main.curso {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #004aad;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: justify;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+main.videos {
+    text-align: center;
+    margin: 25px 0;
+}
+
+ iframe {
+    width: 100%;
+    max-width: 720px;
+    height: 405px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-concluido {
+    display: block;               
+    width: 150px;                 
+    margin: 30px auto 0;          
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 0;               
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-concluido:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+main.video {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #004aad;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: justify;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.video_html {
+    text-align: center;
+    margin: 25px 0;
+}
+
+ iframe.video_html {
+    width: 100%;
+    max-width: 720px;
+    height: 405px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+.video_html {
+    flex: 1 1 300px; 
+    max-width: 450px;
+    text-align: center;
+}
+
+iframe.video_html {
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+main.video_html {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+ 
